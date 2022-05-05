@@ -110,7 +110,7 @@ if predict_btn :
     mod = os.path.join('home', os.path.sep, 'Libellé.h5')
     #print(mod)
     #model = tf.saved_model.load("/Libellé.h5")
-    model = load_model("mod.h5")
+    model = load_model("modelbon.h5")
     model.summary()
     #image= [np.array(Image.open(path)
     #print(loaded_image.shape)
